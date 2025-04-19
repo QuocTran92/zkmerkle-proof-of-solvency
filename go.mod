@@ -1,7 +1,7 @@
 module github.com/binance/zkmerkle-proof-of-solvency
 
 go 1.22
-toolchain go1.23.1
+toolchain go1.24.1
 
 require (
 	github.com/aws/aws-sdk-go-v2 v1.21.2
@@ -12,7 +12,7 @@ require (
 	github.com/consensys/gnark-crypto v0.14.0
 	github.com/gocarina/gocsv v0.0.0-20230123225133-763e25b40669
 	github.com/klauspost/compress v1.17.10
-	github.com/redis/go-redis/v9 v9.6.1
+	github.com/redis/go-redis/v9 v9.6.3
 	github.com/shopspring/decimal v1.3.1
 	gorm.io/driver/mysql v1.4.7
 	gorm.io/gorm v1.24.5
@@ -57,7 +57,7 @@ require (
 	github.com/rs/zerolog v1.33.0 // indirect
 	github.com/x448/float16 v0.8.4 // indirect
 	golang.org/x/crypto v0.36.0 // indirect
-	golang.org/x/net v0.33.0 // indirect
+	golang.org/x/net v0.36.0 // indirect
 	golang.org/x/sync v0.8.0 // indirect
 	golang.org/x/sys v0.31.0 // indirect
 	rsc.io/tmplfunc v0.0.3 // indirect
